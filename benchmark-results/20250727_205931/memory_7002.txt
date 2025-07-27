@@ -1,0 +1,18 @@
+=== Redis内存效率测试 ===
+节点: 127.0.0.1:7002
+时间: 2025年 07月 27日 星期日 21:02:09 CST
+
+--- 基准内存使用 ---
+used_memory_human:1.82M
+
+--- 写入 1000 个 64 字节的键值对 ---
+used_memory_human:1.89M
+mem_fragmentation_ratio:4.71
+
+--- 写入 1000 个 256 字节的键值对 ---
+used_memory_human:2.03M
+mem_fragmentation_ratio:4.46
+
+--- 写入 1000 个 1024 字节的键值对 ---
+used_memory_human:2.49M
+mem_fragmentation_ratio:3.70

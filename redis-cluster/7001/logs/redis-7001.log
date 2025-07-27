@@ -1,0 +1,752 @@
+113671:C 27 Jul 2025 20:50:49.807 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+113671:C 27 Jul 2025 20:50:49.807 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+113672:C 27 Jul 2025 20:50:49.808 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+113672:C 27 Jul 2025 20:50:49.808 * Redis version=7.2.10, bits=64, commit=952cbb0f, modified=0, pid=113672, just started
+113672:C 27 Jul 2025 20:50:49.808 * Configuration loaded
+113672:M 27 Jul 2025 20:50:49.808 * monotonic clock: POSIX clock_gettime
+113672:M 27 Jul 2025 20:50:49.808 # Failed to write PID file: Permission denied
+113672:M 27 Jul 2025 20:50:49.808 * Running mode=cluster, port=7001.
+113672:M 27 Jul 2025 20:50:49.809 * No cluster configuration found, I'm ff453032735e415c22653f979ddfcb4623c50746
+113672:M 27 Jul 2025 20:50:49.810 * Server initialized
+113672:M 27 Jul 2025 20:50:49.811 * Creating AOF base file appendonly-7001.aof.1.base.rdb on server start
+113672:M 27 Jul 2025 20:50:49.812 * Creating AOF incr file appendonly-7001.aof.1.incr.aof on server start
+113672:M 27 Jul 2025 20:50:49.812 * Ready to accept connections tcp
+113672:M 27 Jul 2025 20:50:58.858 # Missing implement of connection type tls
+113672:M 27 Jul 2025 20:50:58.865 * configEpoch set to 1 via CLUSTER SET-CONFIG-EPOCH
+113672:M 27 Jul 2025 20:51:03.882 * Cluster state changed: ok
+113672:M 27 Jul 2025 20:56:01.787 * DB saved on disk
+113672:M 27 Jul 2025 20:56:13.196 * DB saved on disk
+113672:M 27 Jul 2025 20:59:31.209 * DB saved on disk
+113672:M 27 Jul 2025 21:00:32.007 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:00:32.007 * Background saving started by pid 123188
+123188:C 27 Jul 2025 21:00:32.010 * DB saved on disk
+123188:C 27 Jul 2025 21:00:32.011 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:00:32.108 * Background saving terminated with success
+113672:M 27 Jul 2025 21:01:33.026 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:01:33.026 * Background saving started by pid 136109
+136109:C 27 Jul 2025 21:01:33.033 * DB saved on disk
+136109:C 27 Jul 2025 21:01:33.034 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:01:33.127 * Background saving terminated with success
+113672:M 27 Jul 2025 21:04:13.635 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:04:13.636 * Background saving started by pid 161398
+161398:C 27 Jul 2025 21:04:13.638 * DB saved on disk
+161398:C 27 Jul 2025 21:04:13.638 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:04:13.736 * Background saving terminated with success
+113672:M 27 Jul 2025 21:04:17.946 * Starting automatic rewriting of AOF on 6749105600% growth
+113672:M 27 Jul 2025 21:04:17.947 * Creating AOF incr file appendonly-7001.aof.2.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:04:17.948 * Background append only file rewriting started by pid 161481
+161481:C 27 Jul 2025 21:04:17.950 * Successfully created the temporary AOF base file temp-rewriteaof-bg-161481.aof
+161481:C 27 Jul 2025 21:04:17.951 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:04:18.048 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:04:18.048 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-161481.aof into appendonly-7001.aof.2.base.rdb
+113672:M 27 Jul 2025 21:04:18.050 * Removing the history file appendonly-7001.aof.1.incr.aof in the background
+113672:M 27 Jul 2025 21:04:18.050 * Removing the history file appendonly-7001.aof.1.base.rdb in the background
+113672:M 27 Jul 2025 21:04:18.051 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:04:20.488 * DB saved on disk
+113672:M 27 Jul 2025 21:05:21.076 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:05:21.077 * Background saving started by pid 162465
+162465:C 27 Jul 2025 21:05:21.079 * DB saved on disk
+162465:C 27 Jul 2025 21:05:21.079 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:05:21.177 * Background saving terminated with success
+113672:M 27 Jul 2025 21:09:04.439 * DB saved on disk
+113672:M 27 Jul 2025 21:14:05.036 * 10 changes in 300 seconds. Saving...
+113672:M 27 Jul 2025 21:14:05.036 * Background saving started by pid 171547
+171547:C 27 Jul 2025 21:14:05.038 * DB saved on disk
+171547:C 27 Jul 2025 21:14:05.038 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:14:05.137 * Background saving terminated with success
+113672:M 27 Jul 2025 21:22:03.759 * 10 changes in 300 seconds. Saving...
+113672:M 27 Jul 2025 21:22:03.759 * Background saving started by pid 179886
+179886:C 27 Jul 2025 21:22:03.761 * DB saved on disk
+179886:C 27 Jul 2025 21:22:03.761 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:22:03.859 * Background saving terminated with success
+113672:M 27 Jul 2025 21:23:04.045 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:23:04.045 * Background saving started by pid 181108
+181108:C 27 Jul 2025 21:23:04.049 * DB saved on disk
+181108:C 27 Jul 2025 21:23:04.049 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:23:04.146 * Background saving terminated with success
+113672:M 27 Jul 2025 21:28:05.039 * 10 changes in 300 seconds. Saving...
+113672:M 27 Jul 2025 21:28:05.039 * Background saving started by pid 186385
+186385:C 27 Jul 2025 21:28:05.043 * DB saved on disk
+186385:C 27 Jul 2025 21:28:05.043 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:28:05.140 * Background saving terminated with success
+113672:M 27 Jul 2025 21:33:06.080 * 10 changes in 300 seconds. Saving...
+113672:M 27 Jul 2025 21:33:06.081 * Background saving started by pid 191830
+191830:C 27 Jul 2025 21:33:06.085 * DB saved on disk
+191830:C 27 Jul 2025 21:33:06.085 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:33:06.182 * Background saving terminated with success
+113672:M 27 Jul 2025 21:36:04.395 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:36:04.396 * Background saving started by pid 194900
+194900:C 27 Jul 2025 21:36:04.398 * DB saved on disk
+194900:C 27 Jul 2025 21:36:04.399 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:36:04.496 * Background saving terminated with success
+113672:M 27 Jul 2025 21:36:09.626 * Starting automatic rewriting of AOF on 9626% growth
+113672:M 27 Jul 2025 21:36:09.627 * Creating AOF incr file appendonly-7001.aof.3.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:36:09.628 * Background append only file rewriting started by pid 195234
+195234:C 27 Jul 2025 21:36:09.631 * Successfully created the temporary AOF base file temp-rewriteaof-bg-195234.aof
+195234:C 27 Jul 2025 21:36:09.632 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:36:09.729 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:36:09.729 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-195234.aof into appendonly-7001.aof.3.base.rdb
+113672:M 27 Jul 2025 21:36:09.731 * Removing the history file appendonly-7001.aof.2.incr.aof in the background
+113672:M 27 Jul 2025 21:36:09.731 * Removing the history file appendonly-7001.aof.2.base.rdb in the background
+113672:M 27 Jul 2025 21:36:09.732 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:37:05.009 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:37:05.010 * Background saving started by pid 197761
+197761:C 27 Jul 2025 21:37:05.019 * DB saved on disk
+197761:C 27 Jul 2025 21:37:05.019 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:37:05.110 * Background saving terminated with success
+113672:M 27 Jul 2025 21:37:07.421 * Starting automatic rewriting of AOF on 34771% growth
+113672:M 27 Jul 2025 21:37:07.425 * Creating AOF incr file appendonly-7001.aof.4.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:37:07.426 * Background append only file rewriting started by pid 197929
+197929:C 27 Jul 2025 21:37:07.437 * Successfully created the temporary AOF base file temp-rewriteaof-bg-197929.aof
+197929:C 27 Jul 2025 21:37:07.438 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:37:07.527 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:37:07.527 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-197929.aof into appendonly-7001.aof.4.base.rdb
+113672:M 27 Jul 2025 21:37:07.528 * Removing the history file appendonly-7001.aof.3.incr.aof in the background
+113672:M 27 Jul 2025 21:37:07.528 * Removing the history file appendonly-7001.aof.3.base.rdb in the background
+113672:M 27 Jul 2025 21:37:07.529 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:37:40.956 * Starting automatic rewriting of AOF on 5789% growth
+113672:M 27 Jul 2025 21:37:40.957 * Creating AOF incr file appendonly-7001.aof.5.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:37:40.959 * Background append only file rewriting started by pid 199336
+199336:C 27 Jul 2025 21:37:41.010 * Successfully created the temporary AOF base file temp-rewriteaof-bg-199336.aof
+199336:C 27 Jul 2025 21:37:41.011 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:37:41.059 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:37:41.059 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-199336.aof into appendonly-7001.aof.5.base.rdb
+113672:M 27 Jul 2025 21:37:41.062 * Removing the history file appendonly-7001.aof.4.incr.aof in the background
+113672:M 27 Jul 2025 21:37:41.062 * Removing the history file appendonly-7001.aof.4.base.rdb in the background
+113672:M 27 Jul 2025 21:37:41.063 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:06.017 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:38:06.018 * Background saving started by pid 200520
+200520:C 27 Jul 2025 21:38:06.031 * DB saved on disk
+200520:C 27 Jul 2025 21:38:06.032 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:38:06.119 * Background saving terminated with success
+113672:M 27 Jul 2025 21:38:17.196 * Starting automatic rewriting of AOF on 2647% growth
+113672:M 27 Jul 2025 21:38:17.197 * Creating AOF incr file appendonly-7001.aof.6.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:17.198 * Background append only file rewriting started by pid 201046
+201046:C 27 Jul 2025 21:38:17.211 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201046.aof
+201046:C 27 Jul 2025 21:38:17.211 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:38:17.300 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:17.300 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201046.aof into appendonly-7001.aof.6.base.rdb
+113672:M 27 Jul 2025 21:38:17.301 * Removing the history file appendonly-7001.aof.5.incr.aof in the background
+113672:M 27 Jul 2025 21:38:17.301 * Removing the history file appendonly-7001.aof.5.base.rdb in the background
+113672:M 27 Jul 2025 21:38:17.303 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:18.508 * Starting automatic rewriting of AOF on 4338% growth
+113672:M 27 Jul 2025 21:38:18.510 * Creating AOF incr file appendonly-7001.aof.7.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:18.511 * Background append only file rewriting started by pid 201094
+201094:C 27 Jul 2025 21:38:18.516 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201094.aof
+201094:C 27 Jul 2025 21:38:18.517 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:38:18.611 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:18.612 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201094.aof into appendonly-7001.aof.7.base.rdb
+113672:M 27 Jul 2025 21:38:18.613 * Removing the history file appendonly-7001.aof.6.incr.aof in the background
+113672:M 27 Jul 2025 21:38:18.613 * Removing the history file appendonly-7001.aof.6.base.rdb in the background
+113672:M 27 Jul 2025 21:38:18.614 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:19.417 * Starting automatic rewriting of AOF on 21463% growth
+113672:M 27 Jul 2025 21:38:19.418 * Creating AOF incr file appendonly-7001.aof.8.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:19.419 * Background append only file rewriting started by pid 201158
+201158:C 27 Jul 2025 21:38:19.478 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201158.aof
+201158:C 27 Jul 2025 21:38:19.479 * Fork CoW for AOF rewrite: current 2 MB, peak 2 MB, average 1 MB
+113672:M 27 Jul 2025 21:38:19.520 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:19.520 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201158.aof into appendonly-7001.aof.8.base.rdb
+113672:M 27 Jul 2025 21:38:19.521 * Removing the history file appendonly-7001.aof.7.incr.aof in the background
+113672:M 27 Jul 2025 21:38:19.521 * Removing the history file appendonly-7001.aof.7.base.rdb in the background
+113672:M 27 Jul 2025 21:38:19.522 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:20.628 * Starting automatic rewriting of AOF on 704% growth
+113672:M 27 Jul 2025 21:38:20.629 * Creating AOF incr file appendonly-7001.aof.9.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:20.630 * Background append only file rewriting started by pid 201234
+201234:C 27 Jul 2025 21:38:20.639 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201234.aof
+201234:C 27 Jul 2025 21:38:20.640 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:38:20.731 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:20.731 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201234.aof into appendonly-7001.aof.9.base.rdb
+113672:M 27 Jul 2025 21:38:20.732 * Removing the history file appendonly-7001.aof.8.incr.aof in the background
+113672:M 27 Jul 2025 21:38:20.732 * Removing the history file appendonly-7001.aof.8.base.rdb in the background
+113672:M 27 Jul 2025 21:38:20.734 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:21.239 * Starting automatic rewriting of AOF on 634% growth
+113672:M 27 Jul 2025 21:38:21.241 * Creating AOF incr file appendonly-7001.aof.10.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:21.241 * Background append only file rewriting started by pid 201268
+201268:C 27 Jul 2025 21:38:21.253 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201268.aof
+201268:C 27 Jul 2025 21:38:21.253 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:38:21.342 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:21.342 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201268.aof into appendonly-7001.aof.10.base.rdb
+113672:M 27 Jul 2025 21:38:21.343 * Removing the history file appendonly-7001.aof.9.incr.aof in the background
+113672:M 27 Jul 2025 21:38:21.344 * Removing the history file appendonly-7001.aof.9.base.rdb in the background
+113672:M 27 Jul 2025 21:38:21.345 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:22.753 * Starting automatic rewriting of AOF on 7678% growth
+113672:M 27 Jul 2025 21:38:22.762 * Creating AOF incr file appendonly-7001.aof.11.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:22.764 * Background append only file rewriting started by pid 201354
+201354:C 27 Jul 2025 21:38:22.780 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201354.aof
+201354:C 27 Jul 2025 21:38:22.781 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:38:22.865 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:22.865 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201354.aof into appendonly-7001.aof.11.base.rdb
+113672:M 27 Jul 2025 21:38:22.866 * Removing the history file appendonly-7001.aof.10.incr.aof in the background
+113672:M 27 Jul 2025 21:38:22.866 * Removing the history file appendonly-7001.aof.10.base.rdb in the background
+113672:M 27 Jul 2025 21:38:22.867 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:38:24.578 * Starting automatic rewriting of AOF on 243% growth
+113672:M 27 Jul 2025 21:38:24.580 * Creating AOF incr file appendonly-7001.aof.12.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:38:24.581 * Background append only file rewriting started by pid 201435
+201435:C 27 Jul 2025 21:38:24.593 * Successfully created the temporary AOF base file temp-rewriteaof-bg-201435.aof
+201435:C 27 Jul 2025 21:38:24.595 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:38:24.682 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:38:24.682 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-201435.aof into appendonly-7001.aof.12.base.rdb
+113672:M 27 Jul 2025 21:38:24.683 * Removing the history file appendonly-7001.aof.11.incr.aof in the background
+113672:M 27 Jul 2025 21:38:24.683 * Removing the history file appendonly-7001.aof.11.base.rdb in the background
+113672:M 27 Jul 2025 21:38:24.684 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:07.006 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:39:07.007 * Background saving started by pid 202227
+202227:C 27 Jul 2025 21:39:07.015 * DB saved on disk
+202227:C 27 Jul 2025 21:39:07.016 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:39:07.107 * Background saving terminated with success
+113672:M 27 Jul 2025 21:39:20.880 * Starting automatic rewriting of AOF on 2226% growth
+113672:M 27 Jul 2025 21:39:20.881 * Creating AOF incr file appendonly-7001.aof.13.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:20.882 * Background append only file rewriting started by pid 202517
+202517:C 27 Jul 2025 21:39:20.888 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202517.aof
+202517:C 27 Jul 2025 21:39:20.889 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:39:20.983 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:20.983 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202517.aof into appendonly-7001.aof.13.base.rdb
+113672:M 27 Jul 2025 21:39:20.985 * Removing the history file appendonly-7001.aof.12.incr.aof in the background
+113672:M 27 Jul 2025 21:39:20.985 * Removing the history file appendonly-7001.aof.12.base.rdb in the background
+113672:M 27 Jul 2025 21:39:20.987 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:22.191 * Starting automatic rewriting of AOF on 22567% growth
+113672:M 27 Jul 2025 21:39:22.198 * Creating AOF incr file appendonly-7001.aof.14.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:22.199 * Background append only file rewriting started by pid 202613
+202613:C 27 Jul 2025 21:39:22.210 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202613.aof
+202613:C 27 Jul 2025 21:39:22.210 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:39:22.299 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:22.299 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202613.aof into appendonly-7001.aof.14.base.rdb
+113672:M 27 Jul 2025 21:39:22.300 * Removing the history file appendonly-7001.aof.13.incr.aof in the background
+113672:M 27 Jul 2025 21:39:22.300 * Removing the history file appendonly-7001.aof.13.base.rdb in the background
+113672:M 27 Jul 2025 21:39:22.300 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:23.508 * Starting automatic rewriting of AOF on 506% growth
+113672:M 27 Jul 2025 21:39:23.509 * Creating AOF incr file appendonly-7001.aof.15.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:23.510 * Background append only file rewriting started by pid 202670
+202670:C 27 Jul 2025 21:39:23.523 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202670.aof
+202670:C 27 Jul 2025 21:39:23.524 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:23.610 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:23.610 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202670.aof into appendonly-7001.aof.15.base.rdb
+113672:M 27 Jul 2025 21:39:23.621 * Removing the history file appendonly-7001.aof.14.incr.aof in the background
+113672:M 27 Jul 2025 21:39:23.621 * Removing the history file appendonly-7001.aof.14.base.rdb in the background
+113672:M 27 Jul 2025 21:39:23.622 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:24.024 * Starting automatic rewriting of AOF on 2213% growth
+113672:M 27 Jul 2025 21:39:24.043 * Creating AOF incr file appendonly-7001.aof.16.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:24.044 * Background append only file rewriting started by pid 202705
+202705:C 27 Jul 2025 21:39:24.102 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202705.aof
+202705:C 27 Jul 2025 21:39:24.102 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:39:24.148 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:24.148 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202705.aof into appendonly-7001.aof.16.base.rdb
+113672:M 27 Jul 2025 21:39:24.150 * Removing the history file appendonly-7001.aof.15.incr.aof in the background
+113672:M 27 Jul 2025 21:39:24.150 * Removing the history file appendonly-7001.aof.15.base.rdb in the background
+113672:M 27 Jul 2025 21:39:24.151 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:25.356 * Starting automatic rewriting of AOF on 8764% growth
+113672:M 27 Jul 2025 21:39:25.362 * Creating AOF incr file appendonly-7001.aof.17.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:25.363 * Background append only file rewriting started by pid 202808
+202808:C 27 Jul 2025 21:39:25.377 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202808.aof
+202808:C 27 Jul 2025 21:39:25.377 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:25.464 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:25.464 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202808.aof into appendonly-7001.aof.17.base.rdb
+113672:M 27 Jul 2025 21:39:25.466 * Removing the history file appendonly-7001.aof.16.incr.aof in the background
+113672:M 27 Jul 2025 21:39:25.466 * Removing the history file appendonly-7001.aof.16.base.rdb in the background
+113672:M 27 Jul 2025 21:39:25.466 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:27.078 * Starting automatic rewriting of AOF on 213% growth
+113672:M 27 Jul 2025 21:39:27.080 * Creating AOF incr file appendonly-7001.aof.18.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:27.081 * Background append only file rewriting started by pid 202873
+202873:C 27 Jul 2025 21:39:27.090 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202873.aof
+202873:C 27 Jul 2025 21:39:27.091 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:27.182 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:27.182 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202873.aof into appendonly-7001.aof.18.base.rdb
+113672:M 27 Jul 2025 21:39:27.186 * Removing the history file appendonly-7001.aof.17.incr.aof in the background
+113672:M 27 Jul 2025 21:39:27.186 * Removing the history file appendonly-7001.aof.17.base.rdb in the background
+113672:M 27 Jul 2025 21:39:27.188 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:28.999 * Starting automatic rewriting of AOF on 221% growth
+113672:M 27 Jul 2025 21:39:29.010 * Creating AOF incr file appendonly-7001.aof.19.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:29.011 * Background append only file rewriting started by pid 202976
+202976:C 27 Jul 2025 21:39:29.053 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202976.aof
+202976:C 27 Jul 2025 21:39:29.054 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:29.118 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:29.118 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202976.aof into appendonly-7001.aof.19.base.rdb
+113672:M 27 Jul 2025 21:39:29.119 * Removing the history file appendonly-7001.aof.18.incr.aof in the background
+113672:M 27 Jul 2025 21:39:29.119 * Removing the history file appendonly-7001.aof.18.base.rdb in the background
+113672:M 27 Jul 2025 21:39:29.120 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:29.622 * Starting automatic rewriting of AOF on 1150% growth
+113672:M 27 Jul 2025 21:39:29.624 * Creating AOF incr file appendonly-7001.aof.20.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:29.625 * Background append only file rewriting started by pid 202990
+202990:C 27 Jul 2025 21:39:29.640 * Successfully created the temporary AOF base file temp-rewriteaof-bg-202990.aof
+202990:C 27 Jul 2025 21:39:29.640 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:39:29.726 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:29.726 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-202990.aof into appendonly-7001.aof.20.base.rdb
+113672:M 27 Jul 2025 21:39:29.728 * Removing the history file appendonly-7001.aof.19.incr.aof in the background
+113672:M 27 Jul 2025 21:39:29.728 * Removing the history file appendonly-7001.aof.19.base.rdb in the background
+113672:M 27 Jul 2025 21:39:29.729 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:32.056 * Starting automatic rewriting of AOF on 22104% growth
+113672:M 27 Jul 2025 21:39:32.080 * Creating AOF incr file appendonly-7001.aof.21.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:32.082 * Background append only file rewriting started by pid 203142
+203142:C 27 Jul 2025 21:39:32.088 * Successfully created the temporary AOF base file temp-rewriteaof-bg-203142.aof
+203142:C 27 Jul 2025 21:39:32.089 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:32.182 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:32.182 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-203142.aof into appendonly-7001.aof.21.base.rdb
+113672:M 27 Jul 2025 21:39:32.184 * Removing the history file appendonly-7001.aof.20.incr.aof in the background
+113672:M 27 Jul 2025 21:39:32.184 * Removing the history file appendonly-7001.aof.20.base.rdb in the background
+113672:M 27 Jul 2025 21:39:32.185 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:34.802 * Starting automatic rewriting of AOF on 202% growth
+113672:M 27 Jul 2025 21:39:34.804 * Creating AOF incr file appendonly-7001.aof.22.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:34.805 * Background append only file rewriting started by pid 203248
+203248:C 27 Jul 2025 21:39:34.819 * Successfully created the temporary AOF base file temp-rewriteaof-bg-203248.aof
+203248:C 27 Jul 2025 21:39:34.820 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:34.907 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:34.907 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-203248.aof into appendonly-7001.aof.22.base.rdb
+113672:M 27 Jul 2025 21:39:34.908 * Removing the history file appendonly-7001.aof.21.incr.aof in the background
+113672:M 27 Jul 2025 21:39:34.908 * Removing the history file appendonly-7001.aof.21.base.rdb in the background
+113672:M 27 Jul 2025 21:39:34.909 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:35.613 * Starting automatic rewriting of AOF on 588% growth
+113672:M 27 Jul 2025 21:39:35.620 * Creating AOF incr file appendonly-7001.aof.23.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:35.620 * Background append only file rewriting started by pid 203278
+203278:C 27 Jul 2025 21:39:35.637 * Successfully created the temporary AOF base file temp-rewriteaof-bg-203278.aof
+203278:C 27 Jul 2025 21:39:35.637 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:35.722 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:35.722 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-203278.aof into appendonly-7001.aof.23.base.rdb
+113672:M 27 Jul 2025 21:39:35.724 * Removing the history file appendonly-7001.aof.22.incr.aof in the background
+113672:M 27 Jul 2025 21:39:35.724 * Removing the history file appendonly-7001.aof.22.base.rdb in the background
+113672:M 27 Jul 2025 21:39:35.726 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:39:40.865 * Starting automatic rewriting of AOF on 2597% growth
+113672:M 27 Jul 2025 21:39:40.868 * Creating AOF incr file appendonly-7001.aof.24.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:39:40.869 * Background append only file rewriting started by pid 203442
+203442:C 27 Jul 2025 21:39:40.882 * Successfully created the temporary AOF base file temp-rewriteaof-bg-203442.aof
+203442:C 27 Jul 2025 21:39:40.882 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:39:40.970 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:39:40.970 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-203442.aof into appendonly-7001.aof.24.base.rdb
+113672:M 27 Jul 2025 21:39:40.971 * Removing the history file appendonly-7001.aof.23.incr.aof in the background
+113672:M 27 Jul 2025 21:39:40.971 * Removing the history file appendonly-7001.aof.23.base.rdb in the background
+113672:M 27 Jul 2025 21:39:40.972 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:40:08.051 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:40:08.052 * Background saving started by pid 204558
+204558:C 27 Jul 2025 21:40:08.058 * DB saved on disk
+204558:C 27 Jul 2025 21:40:08.058 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:40:08.152 * Background saving terminated with success
+113672:M 27 Jul 2025 21:40:15.590 * Starting automatic rewriting of AOF on 433% growth
+113672:M 27 Jul 2025 21:40:15.592 * Creating AOF incr file appendonly-7001.aof.25.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:40:15.592 * Background append only file rewriting started by pid 204729
+204729:C 27 Jul 2025 21:40:15.607 * Successfully created the temporary AOF base file temp-rewriteaof-bg-204729.aof
+204729:C 27 Jul 2025 21:40:15.608 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:40:15.692 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:40:15.692 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-204729.aof into appendonly-7001.aof.25.base.rdb
+113672:M 27 Jul 2025 21:40:15.693 * Removing the history file appendonly-7001.aof.24.incr.aof in the background
+113672:M 27 Jul 2025 21:40:15.693 * Removing the history file appendonly-7001.aof.24.base.rdb in the background
+113672:M 27 Jul 2025 21:40:15.694 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:40:16.496 * Starting automatic rewriting of AOF on 735% growth
+113672:M 27 Jul 2025 21:40:16.497 * Creating AOF incr file appendonly-7001.aof.26.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:40:16.498 * Background append only file rewriting started by pid 204785
+204785:C 27 Jul 2025 21:40:16.517 * Successfully created the temporary AOF base file temp-rewriteaof-bg-204785.aof
+204785:C 27 Jul 2025 21:40:16.518 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:40:16.598 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:40:16.598 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-204785.aof into appendonly-7001.aof.26.base.rdb
+113672:M 27 Jul 2025 21:40:16.599 * Removing the history file appendonly-7001.aof.25.incr.aof in the background
+113672:M 27 Jul 2025 21:40:16.599 * Removing the history file appendonly-7001.aof.25.base.rdb in the background
+113672:M 27 Jul 2025 21:40:16.599 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:41:09.092 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:41:09.092 * Background saving started by pid 205801
+205801:C 27 Jul 2025 21:41:09.099 * DB saved on disk
+205801:C 27 Jul 2025 21:41:09.100 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:41:09.193 * Background saving terminated with success
+113672:M 27 Jul 2025 21:46:10.011 * 10 changes in 300 seconds. Saving...
+113672:M 27 Jul 2025 21:46:10.012 * Background saving started by pid 211639
+211639:C 27 Jul 2025 21:46:10.019 * DB saved on disk
+211639:C 27 Jul 2025 21:46:10.020 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:46:10.112 * Background saving terminated with success
+113672:M 27 Jul 2025 21:51:04.844 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:51:04.845 * Background saving started by pid 218804
+218804:C 27 Jul 2025 21:51:04.852 * DB saved on disk
+218804:C 27 Jul 2025 21:51:04.853 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:04.945 * Background saving terminated with success
+113672:M 27 Jul 2025 21:51:05.046 * Starting automatic rewriting of AOF on 679% growth
+113672:M 27 Jul 2025 21:51:05.080 * Creating AOF incr file appendonly-7001.aof.27.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:05.090 * Background append only file rewriting started by pid 218819
+218819:C 27 Jul 2025 21:51:05.116 * Successfully created the temporary AOF base file temp-rewriteaof-bg-218819.aof
+218819:C 27 Jul 2025 21:51:05.117 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:05.191 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:05.191 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-218819.aof into appendonly-7001.aof.27.base.rdb
+113672:M 27 Jul 2025 21:51:05.193 * Removing the history file appendonly-7001.aof.26.incr.aof in the background
+113672:M 27 Jul 2025 21:51:05.193 * Removing the history file appendonly-7001.aof.26.base.rdb in the background
+113672:M 27 Jul 2025 21:51:05.194 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:06.298 * Starting automatic rewriting of AOF on 22389% growth
+113672:M 27 Jul 2025 21:51:06.299 * Creating AOF incr file appendonly-7001.aof.28.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:06.301 * Background append only file rewriting started by pid 219014
+219014:C 27 Jul 2025 21:51:06.306 * Successfully created the temporary AOF base file temp-rewriteaof-bg-219014.aof
+219014:C 27 Jul 2025 21:51:06.307 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:06.402 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:06.402 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-219014.aof into appendonly-7001.aof.28.base.rdb
+113672:M 27 Jul 2025 21:51:06.404 * Removing the history file appendonly-7001.aof.27.incr.aof in the background
+113672:M 27 Jul 2025 21:51:06.404 * Removing the history file appendonly-7001.aof.27.base.rdb in the background
+113672:M 27 Jul 2025 21:51:06.405 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:07.309 * Starting automatic rewriting of AOF on 9982% growth
+113672:M 27 Jul 2025 21:51:07.310 * Creating AOF incr file appendonly-7001.aof.29.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:07.311 * Background append only file rewriting started by pid 219217
+219217:C 27 Jul 2025 21:51:07.320 * Successfully created the temporary AOF base file temp-rewriteaof-bg-219217.aof
+219217:C 27 Jul 2025 21:51:07.320 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:07.412 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:07.412 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-219217.aof into appendonly-7001.aof.29.base.rdb
+113672:M 27 Jul 2025 21:51:07.413 * Removing the history file appendonly-7001.aof.28.incr.aof in the background
+113672:M 27 Jul 2025 21:51:07.413 * Removing the history file appendonly-7001.aof.28.base.rdb in the background
+113672:M 27 Jul 2025 21:51:07.413 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:08.623 * Starting automatic rewriting of AOF on 282% growth
+113672:M 27 Jul 2025 21:51:08.624 * Creating AOF incr file appendonly-7001.aof.30.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:08.624 * Background append only file rewriting started by pid 219412
+219412:C 27 Jul 2025 21:51:08.636 * Successfully created the temporary AOF base file temp-rewriteaof-bg-219412.aof
+219412:C 27 Jul 2025 21:51:08.637 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:08.725 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:08.725 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-219412.aof into appendonly-7001.aof.30.base.rdb
+113672:M 27 Jul 2025 21:51:08.727 * Removing the history file appendonly-7001.aof.29.incr.aof in the background
+113672:M 27 Jul 2025 21:51:08.727 * Removing the history file appendonly-7001.aof.29.base.rdb in the background
+113672:M 27 Jul 2025 21:51:08.728 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:09.028 * Starting automatic rewriting of AOF on 1963% growth
+113672:M 27 Jul 2025 21:51:09.061 * Creating AOF incr file appendonly-7001.aof.31.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:09.064 * Background append only file rewriting started by pid 219489
+219489:C 27 Jul 2025 21:51:09.087 * Successfully created the temporary AOF base file temp-rewriteaof-bg-219489.aof
+219489:C 27 Jul 2025 21:51:09.088 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:51:09.166 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:09.166 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-219489.aof into appendonly-7001.aof.31.base.rdb
+113672:M 27 Jul 2025 21:51:09.167 * Removing the history file appendonly-7001.aof.30.incr.aof in the background
+113672:M 27 Jul 2025 21:51:09.167 * Removing the history file appendonly-7001.aof.30.base.rdb in the background
+113672:M 27 Jul 2025 21:51:09.168 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:10.679 * Starting automatic rewriting of AOF on 23241% growth
+113672:M 27 Jul 2025 21:51:10.681 * Creating AOF incr file appendonly-7001.aof.32.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:10.682 * Background append only file rewriting started by pid 219803
+219803:C 27 Jul 2025 21:51:10.694 * Successfully created the temporary AOF base file temp-rewriteaof-bg-219803.aof
+219803:C 27 Jul 2025 21:51:10.695 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:51:10.783 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:10.783 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-219803.aof into appendonly-7001.aof.32.base.rdb
+113672:M 27 Jul 2025 21:51:10.785 * Removing the history file appendonly-7001.aof.31.incr.aof in the background
+113672:M 27 Jul 2025 21:51:10.785 * Removing the history file appendonly-7001.aof.31.base.rdb in the background
+113672:M 27 Jul 2025 21:51:10.786 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:12.701 * Starting automatic rewriting of AOF on 498% growth
+113672:M 27 Jul 2025 21:51:12.703 * Creating AOF incr file appendonly-7001.aof.33.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:12.704 * Background append only file rewriting started by pid 220030
+220030:C 27 Jul 2025 21:51:12.715 * Successfully created the temporary AOF base file temp-rewriteaof-bg-220030.aof
+220030:C 27 Jul 2025 21:51:12.715 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:12.805 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:12.805 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-220030.aof into appendonly-7001.aof.33.base.rdb
+113672:M 27 Jul 2025 21:51:12.807 * Removing the history file appendonly-7001.aof.32.incr.aof in the background
+113672:M 27 Jul 2025 21:51:12.807 * Removing the history file appendonly-7001.aof.32.base.rdb in the background
+113672:M 27 Jul 2025 21:51:12.809 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:13.311 * Starting automatic rewriting of AOF on 28635% growth
+113672:M 27 Jul 2025 21:51:13.312 * Creating AOF incr file appendonly-7001.aof.34.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:13.314 * Background append only file rewriting started by pid 220126
+220126:C 27 Jul 2025 21:51:13.333 * Successfully created the temporary AOF base file temp-rewriteaof-bg-220126.aof
+220126:C 27 Jul 2025 21:51:13.333 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:13.416 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:13.416 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-220126.aof into appendonly-7001.aof.34.base.rdb
+113672:M 27 Jul 2025 21:51:13.418 * Removing the history file appendonly-7001.aof.33.incr.aof in the background
+113672:M 27 Jul 2025 21:51:13.418 * Removing the history file appendonly-7001.aof.33.base.rdb in the background
+113672:M 27 Jul 2025 21:51:13.419 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:15.836 * Starting automatic rewriting of AOF on 28755% growth
+113672:M 27 Jul 2025 21:51:15.838 * Creating AOF incr file appendonly-7001.aof.35.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:15.839 * Background append only file rewriting started by pid 220433
+220433:C 27 Jul 2025 21:51:15.853 * Successfully created the temporary AOF base file temp-rewriteaof-bg-220433.aof
+220433:C 27 Jul 2025 21:51:15.854 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:51:15.940 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:15.940 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-220433.aof into appendonly-7001.aof.35.base.rdb
+113672:M 27 Jul 2025 21:51:15.941 * Removing the history file appendonly-7001.aof.34.incr.aof in the background
+113672:M 27 Jul 2025 21:51:15.941 * Removing the history file appendonly-7001.aof.34.base.rdb in the background
+113672:M 27 Jul 2025 21:51:15.942 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:19.166 * Starting automatic rewriting of AOF on 305% growth
+113672:M 27 Jul 2025 21:51:19.169 * Creating AOF incr file appendonly-7001.aof.36.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:19.170 * Background append only file rewriting started by pid 220762
+220762:C 27 Jul 2025 21:51:19.180 * Successfully created the temporary AOF base file temp-rewriteaof-bg-220762.aof
+220762:C 27 Jul 2025 21:51:19.181 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:51:19.274 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:19.274 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-220762.aof into appendonly-7001.aof.36.base.rdb
+113672:M 27 Jul 2025 21:51:19.281 * Removing the history file appendonly-7001.aof.35.incr.aof in the background
+113672:M 27 Jul 2025 21:51:19.281 * Removing the history file appendonly-7001.aof.35.base.rdb in the background
+113672:M 27 Jul 2025 21:51:19.282 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:22.612 * Starting automatic rewriting of AOF on 194% growth
+113672:M 27 Jul 2025 21:51:22.614 * Creating AOF incr file appendonly-7001.aof.37.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:22.615 * Background append only file rewriting started by pid 221005
+221005:C 27 Jul 2025 21:51:22.623 * Successfully created the temporary AOF base file temp-rewriteaof-bg-221005.aof
+221005:C 27 Jul 2025 21:51:22.623 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:51:22.716 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:22.716 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-221005.aof into appendonly-7001.aof.37.base.rdb
+113672:M 27 Jul 2025 21:51:22.718 * Removing the history file appendonly-7001.aof.36.incr.aof in the background
+113672:M 27 Jul 2025 21:51:22.718 * Removing the history file appendonly-7001.aof.36.base.rdb in the background
+113672:M 27 Jul 2025 21:51:22.720 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:51:24.833 * Starting automatic rewriting of AOF on 25843% growth
+113672:M 27 Jul 2025 21:51:24.834 * Creating AOF incr file appendonly-7001.aof.38.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:51:24.835 * Background append only file rewriting started by pid 221167
+221167:C 27 Jul 2025 21:51:24.847 * Successfully created the temporary AOF base file temp-rewriteaof-bg-221167.aof
+221167:C 27 Jul 2025 21:51:24.848 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:51:24.937 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:51:24.937 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-221167.aof into appendonly-7001.aof.38.base.rdb
+113672:M 27 Jul 2025 21:51:24.941 * Removing the history file appendonly-7001.aof.37.incr.aof in the background
+113672:M 27 Jul 2025 21:51:24.941 * Removing the history file appendonly-7001.aof.37.base.rdb in the background
+113672:M 27 Jul 2025 21:51:24.942 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:05.069 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:52:05.069 * Background saving started by pid 222545
+222545:C 27 Jul 2025 21:52:05.075 * DB saved on disk
+222545:C 27 Jul 2025 21:52:05.076 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:52:05.170 * Background saving terminated with success
+113672:M 27 Jul 2025 21:52:36.634 * Starting automatic rewriting of AOF on 338% growth
+113672:M 27 Jul 2025 21:52:36.635 * Creating AOF incr file appendonly-7001.aof.39.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:36.635 * Background append only file rewriting started by pid 223627
+223627:C 27 Jul 2025 21:52:36.664 * Successfully created the temporary AOF base file temp-rewriteaof-bg-223627.aof
+223627:C 27 Jul 2025 21:52:36.664 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:36.736 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:36.736 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-223627.aof into appendonly-7001.aof.39.base.rdb
+113672:M 27 Jul 2025 21:52:36.738 * Removing the history file appendonly-7001.aof.38.incr.aof in the background
+113672:M 27 Jul 2025 21:52:36.738 * Removing the history file appendonly-7001.aof.38.base.rdb in the background
+113672:M 27 Jul 2025 21:52:36.755 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:37.961 * Starting automatic rewriting of AOF on 676% growth
+113672:M 27 Jul 2025 21:52:37.962 * Creating AOF incr file appendonly-7001.aof.40.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:37.963 * Background append only file rewriting started by pid 223918
+223918:C 27 Jul 2025 21:52:37.985 * Successfully created the temporary AOF base file temp-rewriteaof-bg-223918.aof
+223918:C 27 Jul 2025 21:52:37.985 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:52:38.064 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:38.064 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-223918.aof into appendonly-7001.aof.40.base.rdb
+113672:M 27 Jul 2025 21:52:38.085 * Removing the history file appendonly-7001.aof.39.incr.aof in the background
+113672:M 27 Jul 2025 21:52:38.085 * Removing the history file appendonly-7001.aof.39.base.rdb in the background
+113672:M 27 Jul 2025 21:52:38.093 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:38.694 * Starting automatic rewriting of AOF on 22095% growth
+113672:M 27 Jul 2025 21:52:38.695 * Creating AOF incr file appendonly-7001.aof.41.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:38.696 * Background append only file rewriting started by pid 224073
+224073:C 27 Jul 2025 21:52:38.713 * Successfully created the temporary AOF base file temp-rewriteaof-bg-224073.aof
+224073:C 27 Jul 2025 21:52:38.714 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:52:38.798 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:38.798 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-224073.aof into appendonly-7001.aof.41.base.rdb
+113672:M 27 Jul 2025 21:52:38.799 * Removing the history file appendonly-7001.aof.40.incr.aof in the background
+113672:M 27 Jul 2025 21:52:38.799 * Removing the history file appendonly-7001.aof.40.base.rdb in the background
+113672:M 27 Jul 2025 21:52:38.799 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:40.209 * Starting automatic rewriting of AOF on 373% growth
+113672:M 27 Jul 2025 21:52:40.211 * Creating AOF incr file appendonly-7001.aof.42.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:40.212 * Background append only file rewriting started by pid 224401
+224401:C 27 Jul 2025 21:52:40.225 * Successfully created the temporary AOF base file temp-rewriteaof-bg-224401.aof
+224401:C 27 Jul 2025 21:52:40.226 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:40.313 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:40.314 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-224401.aof into appendonly-7001.aof.42.base.rdb
+113672:M 27 Jul 2025 21:52:40.314 * Removing the history file appendonly-7001.aof.41.incr.aof in the background
+113672:M 27 Jul 2025 21:52:40.314 * Removing the history file appendonly-7001.aof.41.base.rdb in the background
+113672:M 27 Jul 2025 21:52:40.315 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:40.716 * Starting automatic rewriting of AOF on 633% growth
+113672:M 27 Jul 2025 21:52:40.718 * Creating AOF incr file appendonly-7001.aof.43.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:40.719 * Background append only file rewriting started by pid 224495
+224495:C 27 Jul 2025 21:52:40.734 * Successfully created the temporary AOF base file temp-rewriteaof-bg-224495.aof
+224495:C 27 Jul 2025 21:52:40.734 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:40.822 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:40.822 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-224495.aof into appendonly-7001.aof.43.base.rdb
+113672:M 27 Jul 2025 21:52:40.824 * Removing the history file appendonly-7001.aof.42.incr.aof in the background
+113672:M 27 Jul 2025 21:52:40.824 * Removing the history file appendonly-7001.aof.42.base.rdb in the background
+113672:M 27 Jul 2025 21:52:40.825 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:42.538 * Starting automatic rewriting of AOF on 28347% growth
+113672:M 27 Jul 2025 21:52:42.539 * Creating AOF incr file appendonly-7001.aof.44.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:42.541 * Background append only file rewriting started by pid 224937
+224937:C 27 Jul 2025 21:52:42.556 * Successfully created the temporary AOF base file temp-rewriteaof-bg-224937.aof
+224937:C 27 Jul 2025 21:52:42.557 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:42.642 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:42.642 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-224937.aof into appendonly-7001.aof.44.base.rdb
+113672:M 27 Jul 2025 21:52:42.652 * Removing the history file appendonly-7001.aof.43.incr.aof in the background
+113672:M 27 Jul 2025 21:52:42.653 * Removing the history file appendonly-7001.aof.43.base.rdb in the background
+113672:M 27 Jul 2025 21:52:42.672 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:44.891 * Starting automatic rewriting of AOF on 374% growth
+113672:M 27 Jul 2025 21:52:44.892 * Creating AOF incr file appendonly-7001.aof.45.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:44.893 * Background append only file rewriting started by pid 225392
+225392:C 27 Jul 2025 21:52:44.907 * Successfully created the temporary AOF base file temp-rewriteaof-bg-225392.aof
+225392:C 27 Jul 2025 21:52:44.907 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:44.995 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:44.995 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-225392.aof into appendonly-7001.aof.45.base.rdb
+113672:M 27 Jul 2025 21:52:45.010 * Removing the history file appendonly-7001.aof.44.incr.aof in the background
+113672:M 27 Jul 2025 21:52:45.010 * Removing the history file appendonly-7001.aof.44.base.rdb in the background
+113672:M 27 Jul 2025 21:52:45.032 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:47.148 * Starting automatic rewriting of AOF on 298% growth
+113672:M 27 Jul 2025 21:52:47.149 * Creating AOF incr file appendonly-7001.aof.46.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:47.150 * Background append only file rewriting started by pid 225748
+225748:C 27 Jul 2025 21:52:47.162 * Successfully created the temporary AOF base file temp-rewriteaof-bg-225748.aof
+225748:C 27 Jul 2025 21:52:47.163 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:47.252 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:47.252 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-225748.aof into appendonly-7001.aof.46.base.rdb
+113672:M 27 Jul 2025 21:52:47.254 * Removing the history file appendonly-7001.aof.45.incr.aof in the background
+113672:M 27 Jul 2025 21:52:47.254 * Removing the history file appendonly-7001.aof.45.base.rdb in the background
+113672:M 27 Jul 2025 21:52:47.255 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:47.758 * Starting automatic rewriting of AOF on 273% growth
+113672:M 27 Jul 2025 21:52:47.760 * Creating AOF incr file appendonly-7001.aof.47.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:47.761 * Background append only file rewriting started by pid 225872
+225872:C 27 Jul 2025 21:52:47.776 * Successfully created the temporary AOF base file temp-rewriteaof-bg-225872.aof
+225872:C 27 Jul 2025 21:52:47.777 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:47.864 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:47.864 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-225872.aof into appendonly-7001.aof.47.base.rdb
+113672:M 27 Jul 2025 21:52:47.865 * Removing the history file appendonly-7001.aof.46.incr.aof in the background
+113672:M 27 Jul 2025 21:52:47.865 * Removing the history file appendonly-7001.aof.46.base.rdb in the background
+113672:M 27 Jul 2025 21:52:47.866 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:50.689 * Starting automatic rewriting of AOF on 195% growth
+113672:M 27 Jul 2025 21:52:50.691 * Creating AOF incr file appendonly-7001.aof.48.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:50.693 * Background append only file rewriting started by pid 226248
+226248:C 27 Jul 2025 21:52:50.704 * Successfully created the temporary AOF base file temp-rewriteaof-bg-226248.aof
+226248:C 27 Jul 2025 21:52:50.705 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:52:50.795 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:50.795 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-226248.aof into appendonly-7001.aof.48.base.rdb
+113672:M 27 Jul 2025 21:52:50.796 * Removing the history file appendonly-7001.aof.47.incr.aof in the background
+113672:M 27 Jul 2025 21:52:50.796 * Removing the history file appendonly-7001.aof.47.base.rdb in the background
+113672:M 27 Jul 2025 21:52:50.797 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:52:51.501 * Starting automatic rewriting of AOF on 23364% growth
+113672:M 27 Jul 2025 21:52:51.503 * Creating AOF incr file appendonly-7001.aof.49.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:52:51.504 * Background append only file rewriting started by pid 226348
+226348:C 27 Jul 2025 21:52:51.516 * Successfully created the temporary AOF base file temp-rewriteaof-bg-226348.aof
+226348:C 27 Jul 2025 21:52:51.517 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:52:51.605 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:52:51.605 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-226348.aof into appendonly-7001.aof.49.base.rdb
+113672:M 27 Jul 2025 21:52:51.607 * Removing the history file appendonly-7001.aof.48.incr.aof in the background
+113672:M 27 Jul 2025 21:52:51.607 * Removing the history file appendonly-7001.aof.48.base.rdb in the background
+113672:M 27 Jul 2025 21:52:51.608 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:06.099 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:53:06.100 * Background saving started by pid 226951
+226951:C 27 Jul 2025 21:53:06.107 * DB saved on disk
+226951:C 27 Jul 2025 21:53:06.107 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:53:06.201 * Background saving terminated with success
+113672:M 27 Jul 2025 21:53:10.524 * Starting automatic rewriting of AOF on 22265% growth
+113672:M 27 Jul 2025 21:53:10.525 * Creating AOF incr file appendonly-7001.aof.50.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:10.526 * Background append only file rewriting started by pid 227412
+227412:C 27 Jul 2025 21:53:10.538 * Successfully created the temporary AOF base file temp-rewriteaof-bg-227412.aof
+227412:C 27 Jul 2025 21:53:10.539 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:10.627 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:10.628 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-227412.aof into appendonly-7001.aof.50.base.rdb
+113672:M 27 Jul 2025 21:53:10.628 * Removing the history file appendonly-7001.aof.49.incr.aof in the background
+113672:M 27 Jul 2025 21:53:10.628 * Removing the history file appendonly-7001.aof.49.base.rdb in the background
+113672:M 27 Jul 2025 21:53:10.629 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:12.139 * Starting automatic rewriting of AOF on 608% growth
+113672:M 27 Jul 2025 21:53:12.141 * Creating AOF incr file appendonly-7001.aof.51.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:12.142 * Background append only file rewriting started by pid 227743
+227743:C 27 Jul 2025 21:53:12.156 * Successfully created the temporary AOF base file temp-rewriteaof-bg-227743.aof
+227743:C 27 Jul 2025 21:53:12.157 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:12.244 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:12.244 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-227743.aof into appendonly-7001.aof.51.base.rdb
+113672:M 27 Jul 2025 21:53:12.245 * Removing the history file appendonly-7001.aof.50.incr.aof in the background
+113672:M 27 Jul 2025 21:53:12.246 * Removing the history file appendonly-7001.aof.50.base.rdb in the background
+113672:M 27 Jul 2025 21:53:12.247 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:12.648 * Starting automatic rewriting of AOF on 882% growth
+113672:M 27 Jul 2025 21:53:12.649 * Creating AOF incr file appendonly-7001.aof.52.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:12.650 * Background append only file rewriting started by pid 227847
+227847:C 27 Jul 2025 21:53:12.659 * Successfully created the temporary AOF base file temp-rewriteaof-bg-227847.aof
+227847:C 27 Jul 2025 21:53:12.660 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:53:12.751 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:12.751 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-227847.aof into appendonly-7001.aof.52.base.rdb
+113672:M 27 Jul 2025 21:53:12.753 * Removing the history file appendonly-7001.aof.51.incr.aof in the background
+113672:M 27 Jul 2025 21:53:12.753 * Removing the history file appendonly-7001.aof.51.base.rdb in the background
+113672:M 27 Jul 2025 21:53:12.754 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:14.159 * Starting automatic rewriting of AOF on 21550% growth
+113672:M 27 Jul 2025 21:53:14.161 * Creating AOF incr file appendonly-7001.aof.53.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:14.162 * Background append only file rewriting started by pid 228288
+228288:C 27 Jul 2025 21:53:14.176 * Successfully created the temporary AOF base file temp-rewriteaof-bg-228288.aof
+228288:C 27 Jul 2025 21:53:14.176 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:14.263 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:14.263 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-228288.aof into appendonly-7001.aof.53.base.rdb
+113672:M 27 Jul 2025 21:53:14.265 * Removing the history file appendonly-7001.aof.52.incr.aof in the background
+113672:M 27 Jul 2025 21:53:14.265 * Removing the history file appendonly-7001.aof.52.base.rdb in the background
+113672:M 27 Jul 2025 21:53:14.267 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:15.777 * Starting automatic rewriting of AOF on 325% growth
+113672:M 27 Jul 2025 21:53:15.779 * Creating AOF incr file appendonly-7001.aof.54.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:15.780 * Background append only file rewriting started by pid 228624
+228624:C 27 Jul 2025 21:53:15.792 * Successfully created the temporary AOF base file temp-rewriteaof-bg-228624.aof
+228624:C 27 Jul 2025 21:53:15.793 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:53:15.881 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:15.881 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-228624.aof into appendonly-7001.aof.54.base.rdb
+113672:M 27 Jul 2025 21:53:15.882 * Removing the history file appendonly-7001.aof.53.incr.aof in the background
+113672:M 27 Jul 2025 21:53:15.882 * Removing the history file appendonly-7001.aof.53.base.rdb in the background
+113672:M 27 Jul 2025 21:53:15.883 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:17.997 * Starting automatic rewriting of AOF on 22631% growth
+113672:M 27 Jul 2025 21:53:17.999 * Creating AOF incr file appendonly-7001.aof.55.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:18.001 * Background append only file rewriting started by pid 229055
+229055:C 27 Jul 2025 21:53:18.017 * Successfully created the temporary AOF base file temp-rewriteaof-bg-229055.aof
+229055:C 27 Jul 2025 21:53:18.018 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:18.101 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:18.101 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-229055.aof into appendonly-7001.aof.55.base.rdb
+113672:M 27 Jul 2025 21:53:18.103 * Removing the history file appendonly-7001.aof.54.incr.aof in the background
+113672:M 27 Jul 2025 21:53:18.103 * Removing the history file appendonly-7001.aof.54.base.rdb in the background
+113672:M 27 Jul 2025 21:53:18.105 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:18.607 * Starting automatic rewriting of AOF on 247% growth
+113672:M 27 Jul 2025 21:53:18.616 * Creating AOF incr file appendonly-7001.aof.56.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:18.617 * Background append only file rewriting started by pid 229133
+229133:C 27 Jul 2025 21:53:18.650 * Successfully created the temporary AOF base file temp-rewriteaof-bg-229133.aof
+229133:C 27 Jul 2025 21:53:18.650 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:18.717 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:18.717 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-229133.aof into appendonly-7001.aof.56.base.rdb
+113672:M 27 Jul 2025 21:53:18.719 * Removing the history file appendonly-7001.aof.55.incr.aof in the background
+113672:M 27 Jul 2025 21:53:18.719 * Removing the history file appendonly-7001.aof.55.base.rdb in the background
+113672:M 27 Jul 2025 21:53:18.720 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:20.833 * Starting automatic rewriting of AOF on 502% growth
+113672:M 27 Jul 2025 21:53:20.843 * Creating AOF incr file appendonly-7001.aof.57.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:20.844 * Background append only file rewriting started by pid 229538
+229538:C 27 Jul 2025 21:53:20.866 * Successfully created the temporary AOF base file temp-rewriteaof-bg-229538.aof
+229538:C 27 Jul 2025 21:53:20.867 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:20.946 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:20.946 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-229538.aof into appendonly-7001.aof.57.base.rdb
+113672:M 27 Jul 2025 21:53:20.947 * Removing the history file appendonly-7001.aof.56.incr.aof in the background
+113672:M 27 Jul 2025 21:53:20.947 * Removing the history file appendonly-7001.aof.56.base.rdb in the background
+113672:M 27 Jul 2025 21:53:20.948 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:21.449 * Starting automatic rewriting of AOF on 13531% growth
+113672:M 27 Jul 2025 21:53:21.452 * Creating AOF incr file appendonly-7001.aof.58.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:21.453 * Background append only file rewriting started by pid 229620
+229620:C 27 Jul 2025 21:53:21.464 * Successfully created the temporary AOF base file temp-rewriteaof-bg-229620.aof
+229620:C 27 Jul 2025 21:53:21.464 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:21.554 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:21.554 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-229620.aof into appendonly-7001.aof.58.base.rdb
+113672:M 27 Jul 2025 21:53:21.566 * Removing the history file appendonly-7001.aof.57.incr.aof in the background
+113672:M 27 Jul 2025 21:53:21.566 * Removing the history file appendonly-7001.aof.57.base.rdb in the background
+113672:M 27 Jul 2025 21:53:21.575 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:24.797 * Starting automatic rewriting of AOF on 4058% growth
+113672:M 27 Jul 2025 21:53:24.799 * Creating AOF incr file appendonly-7001.aof.59.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:24.800 * Background append only file rewriting started by pid 230107
+230107:C 27 Jul 2025 21:53:24.821 * Successfully created the temporary AOF base file temp-rewriteaof-bg-230107.aof
+230107:C 27 Jul 2025 21:53:24.821 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:24.900 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:24.900 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-230107.aof into appendonly-7001.aof.59.base.rdb
+113672:M 27 Jul 2025 21:53:24.910 * Removing the history file appendonly-7001.aof.58.incr.aof in the background
+113672:M 27 Jul 2025 21:53:24.910 * Removing the history file appendonly-7001.aof.58.base.rdb in the background
+113672:M 27 Jul 2025 21:53:24.921 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:29.361 * Starting automatic rewriting of AOF on 468% growth
+113672:M 27 Jul 2025 21:53:29.364 * Creating AOF incr file appendonly-7001.aof.60.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:29.366 * Background append only file rewriting started by pid 230531
+230531:C 27 Jul 2025 21:53:29.380 * Successfully created the temporary AOF base file temp-rewriteaof-bg-230531.aof
+230531:C 27 Jul 2025 21:53:29.381 * Fork CoW for AOF rewrite: current 2 MB, peak 2 MB, average 1 MB
+113672:M 27 Jul 2025 21:53:29.467 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:29.467 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-230531.aof into appendonly-7001.aof.60.base.rdb
+113672:M 27 Jul 2025 21:53:29.468 * Removing the history file appendonly-7001.aof.59.incr.aof in the background
+113672:M 27 Jul 2025 21:53:29.468 * Removing the history file appendonly-7001.aof.59.base.rdb in the background
+113672:M 27 Jul 2025 21:53:29.468 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:53:30.677 * Starting automatic rewriting of AOF on 478% growth
+113672:M 27 Jul 2025 21:53:30.684 * Creating AOF incr file appendonly-7001.aof.61.incr.aof on background rewrite
+113672:M 27 Jul 2025 21:53:30.685 * Background append only file rewriting started by pid 230666
+230666:C 27 Jul 2025 21:53:30.705 * Successfully created the temporary AOF base file temp-rewriteaof-bg-230666.aof
+230666:C 27 Jul 2025 21:53:30.706 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 21:53:30.786 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 21:53:30.786 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-230666.aof into appendonly-7001.aof.61.base.rdb
+113672:M 27 Jul 2025 21:53:30.787 * Removing the history file appendonly-7001.aof.60.incr.aof in the background
+113672:M 27 Jul 2025 21:53:30.787 * Removing the history file appendonly-7001.aof.60.base.rdb in the background
+113672:M 27 Jul 2025 21:53:30.788 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 21:54:07.089 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 21:54:07.089 * Background saving started by pid 231622
+231622:C 27 Jul 2025 21:54:07.097 * DB saved on disk
+231622:C 27 Jul 2025 21:54:07.097 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 21:54:07.190 * Background saving terminated with success
+113672:M 27 Jul 2025 22:00:32.456 * 10 changes in 300 seconds. Saving...
+113672:M 27 Jul 2025 22:00:32.457 * Background saving started by pid 240552
+240552:C 27 Jul 2025 22:00:32.463 * DB saved on disk
+240552:C 27 Jul 2025 22:00:32.464 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 22:00:32.557 * Background saving terminated with success
+113672:M 27 Jul 2025 22:01:06.684 * Starting automatic rewriting of AOF on 21646% growth
+113672:M 27 Jul 2025 22:01:06.686 * Creating AOF incr file appendonly-7001.aof.62.incr.aof on background rewrite
+113672:M 27 Jul 2025 22:01:06.687 * Background append only file rewriting started by pid 245475
+245475:C 27 Jul 2025 22:01:06.708 * Successfully created the temporary AOF base file temp-rewriteaof-bg-245475.aof
+245475:C 27 Jul 2025 22:01:06.709 * Fork CoW for AOF rewrite: current 1 MB, peak 1 MB, average 0 MB
+113672:M 27 Jul 2025 22:01:06.789 * Background AOF rewrite terminated with success
+113672:M 27 Jul 2025 22:01:06.789 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-245475.aof into appendonly-7001.aof.62.base.rdb
+113672:M 27 Jul 2025 22:01:06.790 * Removing the history file appendonly-7001.aof.61.incr.aof in the background
+113672:M 27 Jul 2025 22:01:06.790 * Removing the history file appendonly-7001.aof.61.base.rdb in the background
+113672:M 27 Jul 2025 22:01:06.791 * Background AOF rewrite finished successfully
+113672:M 27 Jul 2025 22:01:33.040 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 22:01:33.041 * Background saving started by pid 249386
+249386:C 27 Jul 2025 22:01:33.062 * DB saved on disk
+249386:C 27 Jul 2025 22:01:33.063 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+113672:M 27 Jul 2025 22:01:33.143 * Background saving terminated with success
+113672:M 27 Jul 2025 22:06:04.784 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 22:06:04.785 * Background saving started by pid 259192
+259192:C 27 Jul 2025 22:06:04.804 * DB saved on disk
+259192:C 27 Jul 2025 22:06:04.805 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 22:06:04.885 * Background saving terminated with success
+113672:M 27 Jul 2025 22:07:05.024 * 10000 changes in 60 seconds. Saving...
+113672:M 27 Jul 2025 22:07:05.025 * Background saving started by pid 261631
+261631:C 27 Jul 2025 22:07:05.045 * DB saved on disk
+261631:C 27 Jul 2025 22:07:05.046 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+113672:M 27 Jul 2025 22:07:05.125 * Background saving terminated with success
+113672:M 27 Jul 2025 23:48:41.923 * DB saved on disk

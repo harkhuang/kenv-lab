@@ -1,0 +1,8 @@
+Cluster has 3 master nodes:
+
+Master 0: b7c53de736efede0ee8c7ceffd0650864a9aaa1c 127.0.0.1:7003
+Master 1: ff453032735e415c22653f979ddfcb4623c50746 127.0.0.1:7001
+Master 2: 44a7768a2ca54fb030e4f09ccf4b793760616097 127.0.0.1:7002
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SET","199600.80","0.033","0.008","0.023","0.079","0.151","2.423"

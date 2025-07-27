@@ -1,0 +1,37 @@
+239928:C 27 Jul 2025 22:00:14.206 # WARNING: Changing databases number from 16 to 1 since we are in cluster mode
+239928:C 27 Jul 2025 22:00:14.206 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+239929:C 27 Jul 2025 22:00:14.207 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+239929:C 27 Jul 2025 22:00:14.207 * Redis version=7.2.10, bits=64, commit=952cbb0f, modified=0, pid=239929, just started
+239929:C 27 Jul 2025 22:00:14.207 * Configuration loaded
+239929:M 27 Jul 2025 22:00:14.207 * monotonic clock: POSIX clock_gettime
+239929:M 27 Jul 2025 22:00:14.207 # Failed to write PID file: Permission denied
+239929:M 27 Jul 2025 22:00:14.207 * Running mode=cluster, port=7011.
+239929:M 27 Jul 2025 22:00:14.208 * No cluster configuration found, I'm ff17b60e128d58cbd6d683ce43507676461b65e2
+239929:M 27 Jul 2025 22:00:14.210 * Server initialized
+239929:M 27 Jul 2025 22:00:14.210 * Creating AOF base file appendonly-7011.aof.1.base.rdb on server start
+239929:M 27 Jul 2025 22:00:14.211 * Creating AOF incr file appendonly-7011.aof.1.incr.aof on server start
+239929:M 27 Jul 2025 22:00:14.211 * Ready to accept connections tcp
+239929:M 27 Jul 2025 22:00:29.316 # Missing implement of connection type tls
+239929:M 27 Jul 2025 22:00:29.326 * configEpoch set to 1 via CLUSTER SET-CONFIG-EPOCH
+239929:M 27 Jul 2025 22:00:34.312 * Cluster state changed: ok
+239929:M 27 Jul 2025 22:01:17.515 * 10000 changes in 60 seconds. Saving...
+239929:M 27 Jul 2025 22:01:17.515 * Background saving started by pid 247065
+247065:C 27 Jul 2025 22:01:17.518 * DB saved on disk
+247065:C 27 Jul 2025 22:01:17.518 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+239929:M 27 Jul 2025 22:01:17.616 * Background saving terminated with success
+239929:M 27 Jul 2025 22:02:18.002 * 10000 changes in 60 seconds. Saving...
+239929:M 27 Jul 2025 22:02:18.002 * Background saving started by pid 253898
+253898:C 27 Jul 2025 22:02:18.016 * DB saved on disk
+253898:C 27 Jul 2025 22:02:18.016 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+239929:M 27 Jul 2025 22:02:18.103 * Background saving terminated with success
+239929:M 27 Jul 2025 22:06:21.506 * 10000 changes in 60 seconds. Saving...
+239929:M 27 Jul 2025 22:06:21.506 * Background saving started by pid 260088
+260088:C 27 Jul 2025 22:06:21.522 * DB saved on disk
+260088:C 27 Jul 2025 22:06:21.522 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+239929:M 27 Jul 2025 22:06:21.606 * Background saving terminated with success
+239929:M 27 Jul 2025 22:07:22.035 * 10000 changes in 60 seconds. Saving...
+239929:M 27 Jul 2025 22:07:22.035 * Background saving started by pid 262030
+262030:C 27 Jul 2025 22:07:22.042 * DB saved on disk
+262030:C 27 Jul 2025 22:07:22.043 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+239929:M 27 Jul 2025 22:07:22.136 * Background saving terminated with success
+239929:M 27 Jul 2025 23:49:03.051 * DB saved on disk

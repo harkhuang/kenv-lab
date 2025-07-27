@@ -1,0 +1,2 @@
+file appendonly-7001.aof.62.base.rdb seq 62 type b
+file appendonly-7001.aof.62.incr.aof seq 62 type i

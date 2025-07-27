@@ -1,0 +1,15 @@
+=== Redis延迟测试报告 ===
+节点: 127.0.0.1:7003
+时间: 2025年 07月 27日 星期日 21:03:25 CST
+
+--- 基本延迟测试 ---
+0 1 0.26 96
+
+--- 内存使用情况 ---
+used_memory_human:1.84M
+used_memory_peak_human:5.76M
+mem_fragmentation_ratio:5.38
+
+--- 连接信息 ---
+connected_clients:1
+client_recent_max_input_buffer:20480
