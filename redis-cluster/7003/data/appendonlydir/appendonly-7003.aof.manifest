@@ -1,2 +1,2 @@
-file appendonly-7003.aof.65.base.rdb seq 65 type b
-file appendonly-7003.aof.65.incr.aof seq 65 type i
+file appendonly-7003.aof.72.base.rdb seq 72 type b
+file appendonly-7003.aof.72.incr.aof seq 72 type i

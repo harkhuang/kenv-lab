@@ -13,8 +13,9 @@ DATA_SIZE=64
 
 # 测试参数（优化为关注吞吐的配置）
 TEST_OPERATIONS=("set" "get" "incr")
+TEST_OPERATIONS=("set" "get" "incr" "lpush" "rpush" "lpop" "rpop" "sadd" "hset" "spop" "zadd" "zpopmin" "lrange" "mset")
 CONCURRENCY_LEVELS=(100 300 500 1000)
-REQUEST_COUNTS=(50000 100000)
+REQUEST_COUNTS=(10000 30000 50000 100000)
 
 # 集群配置
 CLUSTER_3_PORT=7001
